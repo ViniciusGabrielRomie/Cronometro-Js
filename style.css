@@ -1,0 +1,35 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  color: darkred;
+}
+
+.tempo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.botoes {
+  display:flex;
+  flex-direction:row;
+  align-self: center;
+}
+
+
+
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
