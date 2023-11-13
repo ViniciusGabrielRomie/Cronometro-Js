@@ -19,10 +19,10 @@ window.onload = function(){
 
       botaoReset.onclick = function(){
         clearInterval(Interval);
-        segundos = "00";
-        milissegundos = "00";
-        acressentarSegundos.innerHTML = segundos;
-        acressentarMilissegundos.innerHTML = milissegundos;
+        segundos = 0;
+        milissegundos = 0;
+        acressentarSegundos.innerHTML = "00";
+        acressentarMilissegundos.innerHTML = "00";
       }
 
     function startTimer() {
